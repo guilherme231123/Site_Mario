@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pag_01_fundo.jpg);
+    width: 100VW;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 200px;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Sigmar', cursive;
+    padding: 10px;
+    color: white;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 45px;
+    padding: 50px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.imagens img {
+    width: 260px;
+    vertical-align: auto;
+    border-radius: 50px;
+    
+}
+
+img:hover {
+    width: 280px;
+    vertical-align: auto;
+    transition: 0.5s; 
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50px;
+    vertical-align: auto;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.margem {
+    padding-top: 300px;
+}
+
+.persona {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    margin: 130px;
+    text-align: center;
+}
+
+.persona h1 {
+    margin-top: 300px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.persona p {
+    text-align: justify;
+    font-size: 27px;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    margin: 10px;
+    padding-top: 40px;
+}
+
+.persona a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color:  #000000FF;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.persona img {
+    width: 50%;
+    border-radius: 50px;
+}
